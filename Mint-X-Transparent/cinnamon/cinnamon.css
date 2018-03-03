@@ -167,13 +167,14 @@ StScrollBar StButton#vhandle:hover {
 
 .menu {
     margin-left:200px;
-    background-color: rgba(0,0,0,0.5);
-    border-width: 1px;
+    background-color: rgba(140,74,72,1);
+    border-width: 2px;
     
     
-    border-color: rgba(40, 40, 40, 0.3);
+    border-color: rgba(40, 40, 40, 1);
     color: rgba(70, 70, 70);
-    color:#FFFFFF;     /*changed color of menu bar */  
+    color:#ffffff;     /*changed color of menu bar fonts */  
+    font-weight:bold;
     min-width: 100px;
 }
 
@@ -197,6 +198,7 @@ StScrollBar StButton#vhandle:hover {
 .popup-menu StEntry {
     padding: 4px 12px;
     color: #2b2b2b;
+    
     border-image: url("misc-assets/entry.png") 6;
     border-radius: 4px;
     width: 250px;
